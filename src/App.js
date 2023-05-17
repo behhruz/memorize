@@ -2,7 +2,8 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import data from "./utils/navbar";
 import HomePage from "./components/home";
-import './index.css'
+import "./index.css";
+
 function App() {
   return (
     <div className="Wrapper">
@@ -13,7 +14,7 @@ function App() {
           return <Route key={id} path={path} element={element} />;
         })}
       </Routes>
-      <Navbar/>
+      <Navbar />
     </div>
   );
 }

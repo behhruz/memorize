@@ -20,7 +20,8 @@ const IconsWrapper = styled.div`
   align-items: center;
   justify-content: center;
   .active{
-    color: blue;
+    color: white;
+    fill: white;
   }
 `;
 const Text = styled.h1`
